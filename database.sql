@@ -61,10 +61,10 @@ CREATE TABLE IF NOT EXISTS order_items (
 -- ALTER TABLE books ADD COLUMN image_url VARCHAR(500) AFTER image;
 
 -- ============================================================
--- حساب الأدمن: admin@bookmart.com / Admin@123
+-- حساب الأدمن: admin@bookmart.com / 
 -- ============================================================
 INSERT IGNORE INTO users (name, email, password, role) VALUES
-('مدير الموقع', 'admin@bookmart.com', '$2y$10$yk4Khp46YFwuSZgmbYLsoOpGaxpTM.xhX1tRVhtcodjTC0z3QbEWq', 'admin');
+('مدير الموقع', 'admin@bookmart.com', '', 'admin');
 
 -- ============================================================
 -- كتب الموقع — الصور: assets/images/books/Book1.jpeg … Book8.jpeg
